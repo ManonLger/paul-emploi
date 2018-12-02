@@ -1,0 +1,14 @@
+version: '3.0'
+
+services:
+  database:
+    restart: always
+    image: postgres:9.6
+    environment:
+      POSTGRES_USER: 'paul'
+      POSTGRES_PASSWORD: 'paulpaul'
+      POSTGRES_DB: 'paul_emploi_db'
+    ports:
+     - '5432:5432'
+    volumes:
+     - './docker-volume/database:/var/lib/postgresql/data'
