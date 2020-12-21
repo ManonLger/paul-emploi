@@ -58,7 +58,7 @@
     "babel-jest": "^21.0.2",
     "jest": "^21.2.0",
     "vue-jest": "^1.0.2",
-    "node-notifier": "^5.1.2",
+    "node-notifier": "^8.0.1",
     "chromedriver": "^2.27.2",
     "cross-spawn": "^5.0.1",
     "jquery": "^3.2.1",
